@@ -1,7 +1,7 @@
 .background-image-container {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.6),
-    rgba(255, 0, 0, 0)
+    rgba(0, 0, 0, 0)
     ),url(cows-in-field.jpg);
   width: 100%;
   /* height: calc(width * 2); */
@@ -45,10 +45,14 @@
   padding-top: 20px;
 }
 
+.dark-background {
+  background-color: black;
+}
+
 .shop-background {
   background-image: linear-gradient(
     rgba(0, 0, 0, 1),
-    rgba(255, 0, 0, 0)
+    rgba(0, 0, 0, 0)
     ),url(thick-meat-cuts.jpg);
   height: 400px;
   background-position: center;
