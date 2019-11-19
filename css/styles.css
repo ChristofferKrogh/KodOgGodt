@@ -1,0 +1,65 @@
+.background-image-container {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(255, 0, 0, 0)
+    ),url(cows-in-field.jpg);
+  width: 100%;
+  /* height: calc(width * 2); */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.mobile-icon {
+  width: 10px;
+  height: .9em;
+}
+.navbar-background {
+  opacity: 0.8;
+  margin: auto;
+  padding: 0;
+}
+
+.section-title {
+  text-align: center;
+  line-height: 4rem;
+}
+
+.practical-stuff {
+  width: 80%;
+}
+
+.about, .shop {
+  width: 80%;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.about {
+  padding: 10px 0 30px;
+}
+
+.shop {
+  padding-top: 20px;
+}
+
+.shop-background {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 1),
+    rgba(255, 0, 0, 0)
+    ),url(thick-meat-cuts.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: grey;
+  height: 100px;
+  /* margin-top: 50px; */
+}
