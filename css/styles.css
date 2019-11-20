@@ -1,25 +1,42 @@
 .background-image-container {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0)
     ),url(cows-in-field.jpg);
   width: 100%;
-  /* height: calc(width * 2); */
-  height: 500px;
+  height: calc(width * 2);
+  height: 500px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 20px;
 }
 
+.background-image-container {
+  background-color: #F8F8F8;
+  margin-bottom: 0;
+}
+
+.navbar-background {
+  margin: auto;
+}
+
+.logo-img {
+  border-radius: 100%;
+}
+
+.brand-title {
+  line-height: 60px;
+}
+
+.carousel-item {
+  max-height: 600px;
+  width: 100%;
+}
+
 .mobile-icon {
   width: 10px;
   height: .9em;
-}
-.navbar-background {
-  opacity: 0.8;
-  margin: auto;
-  padding: 0;
 }
 
 .section-title {
@@ -31,6 +48,15 @@
   width: 80%;
 }
 
+.contact-information a {
+  color: #2c3e50;
+}
+
+a:hover {
+  color: black;
+}
+
+
 .about, .shop {
   width: 80%;
   margin: auto;
@@ -41,19 +67,36 @@
   padding: 10px 0 30px;
 }
 
+.photo-container {
+  text-align: center;
+}
+
+.profile-picture {
+  max-width: 100%;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  /* margin: 0 auto 20px; */
+  max-height: 300px;
+}
+
 .shop {
   padding-top: 20px;
 }
 
 .dark-background {
-  background-color: black;
+  background-color: linear-gradient(black, grey);
+  height: 400px;
+  opacity: 0.95;
 }
 
 .shop-background {
   background-image: linear-gradient(
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0)
-    ),url(thick-meat-cuts.jpg);
+    ),url(facade.jpeg);
+
+  /* background-image: url(thick-meat-cuts.jpg); */
+
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,6 +107,13 @@
 
 .footer {
   background-color: grey;
-  height: 100px;
-  /* margin-top: 50px; */
+  height: 120px;
+}
+
+.footer .logo-img {
+  /* height: 120px; */
+  max-height: 120px;
+  max-width: 120px;
+  width: 100%;
+  padding: 5px;
 }
