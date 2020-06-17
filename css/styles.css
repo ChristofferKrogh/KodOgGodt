@@ -25,6 +25,20 @@
   border-radius: 100%;
 }
 
+/* .smiley-container {
+  line-height: 120px;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+.smiley-img {
+  /* height: 120px; */
+  max-height: 70px;
+  width: auto;
+  margin: 25px 10px 25px 0;
+  /* padding: 5px; */
+}
+
 .brand-title {
   line-height: 60px;
 }
